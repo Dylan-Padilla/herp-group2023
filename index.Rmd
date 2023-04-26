@@ -51,7 +51,7 @@ xaringanExtra::use_slide_tone()
 
 <p align="center">
 
-<img float = "left" src = "imgs/Shai-Meiri.jpeg"  width = "310" height = "210"><br>
+<img float = "left" src = "imgs/shai-meiri.jpeg"  width = "310" height = "210"><br>
 
 Shai Meiri
 
@@ -125,7 +125,7 @@ Camila Tabares
 
 <center>
 
-<img float = "left" src = "imgs/eric-pianka.jpg"  width = "500" height = "320">
+<img float = "left" src = "imgs/eric-pianka.JPG"  width = "500" height = "320">
 
 </center>
 
