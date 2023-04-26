@@ -1,0 +1,44 @@
+---
+title: "Challenging the foraging-mode paradigm: a case study of lizards"
+author: <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> Dylan Padilla <br/> Spring, 2023 <br /> `r icon_style(fontawesome("envelope", style = "solid"), scale = 1, fill = "red")` dpadil10@asu.edu | `r icon_style(fontawesome("link", style = "solid"), scale = 1, fill = "red")` https://dylanpadilla.netlify.app/
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ['default', 'default.css']
+    seal: true
+    nature:
+      ratio: '16:9'
+      slideNumberFormat: '%current%' 
+      highlightStyle: ir-black
+      highlightLines: true
+      countIncrementalSlides: true
+---
+
+```{r setup, include = FALSE}
+
+library(rmarkdown)
+library(xaringan)
+library(xaringanExtra)
+library(knitr)
+library(icons)
+library(emo)
+
+options(htmltools.dir.version = FALSE)
+
+## preset code chunk options
+
+knitr::opts_chunk$set(dpi = 300,            # ensures high resolution images
+                      echo = FALSE,         # FALSE: code chunks don't show
+                      warning = FALSE,      # FALSE: suppresses warning messages
+                      error = FALSE,       # FALSE: Suppresses error messages
+                      fig.align = "center")
+
+```
+
+
+
+```{r xaringan-slide-tone, echo=FALSE}
+
+xaringanExtra::use_slide_tone()
+
+```
